@@ -12,38 +12,53 @@ body{ background-image:url(imagen/fondo.jpg);
 }
 h3{color: whitesmoke;
     font-size: 22px;
+    align-content: center;
+    margin-left: 30%;
 }
 .allContainer{
     align-content: center;
 }
-main{
-    
-   padding: 5% 0% 0% 5%;
-}
 .logotitle{
 align-content: center;
 margin-left: 25%;
-}
-#notices{
-    display: block;    
-}
-.title1{
-    display:block;
-}
+}    
 #root{
-    background: #826c5c78;
+    background: #272321a8;
     color: whitesmoke;
     padding: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 22px;
+    
 }
-.logotitle{
+.tf-logo{
     width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.btn-secondary{
+    background-color:rgba(34, 34, 34, 0.89);
+    border-bottom-color: rgba(44, 44, 44, 0.938);
+    color: #dbdbdbf5;
+}
+.btn-secondary2{
+    background-color: rgba(63, 63, 63, 0.931);
+    border-bottom-color: rgba(78, 78, 78, 0.863);
+    color: rgba(245, 245, 245, 0.897);
 }
 #root a{
     color:#e6c8c8;
     }
 #root p{
     color:#e6c8c8;
+}
+#feedlabel{
+    align-content: center;
+    margin-left: 30%; 
+}
+#cards{
+    align-content: center;
+    margin-left: 25%;
 }

@@ -1,15 +1,19 @@
 <!doctype html>
-<html lang= "en" >
-<head> <!-- Required meta tags -->
-   <meta charset= "utf-8" >
-   <meta name= "viewport" content= "width=device-width, initial-scale=1, shrink-to-fit=no" > <!-- Bootstrap CSS -->
-   <link href="https://fonts.googleapis.com/css?family=Cinzel%7CGloria+Hallelujah" rel="stylesheet">
-   <title>STEAM</title>
-   <!-- Latest compiled and minified CSS -->
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-   <!-- Optional theme -->
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-   <link rel="stylesheet" href="style.css">
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- Bootstrap CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Cinzel%7CGloria+Hallelujah" rel="stylesheet">
+  <title>STEAM</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -24,7 +28,7 @@
           </div>
         </div>
         <div class="col-xs-12">
-          <h2>Bienvenidos al mejor Website de Noticias</h2>
+          <h2>Bienvenidos al mejor Website de Noticias, aquí encontrarás todo, sobre Team Fortress 2</h2>
         </div>
       </div>
     </div>
@@ -32,42 +36,68 @@
 
 
   <div class="container">
-    <div class="col-xs-12"> <!-- este es mi div para logo-->
-      <img src="../src/imagen/tf-logo.png" class="img-responsive logotitle" alt="titulo">
+    <div class="col-xs-12">
+      <!-- este es mi div para logo-->
+      <img src="../src/imagen/tf-logo.png" class="img-responsive tf-logo" alt="titulo">
     </div>
   </div>
 
 
-    <div class="container" id="allContainer">
-        <div class="col-xs-12"> 
-          <h3>Filtrar por fuente</h3>
+  <div class="button"> <button type="button" class="btn btn-secondary btn-lg btn-block">Conoce todos los titulares de
+      las mejores Noticias</button></div>
+  <div class="button2"> <button type="button2" class="btn btn-secondary2 btn-lg btn-block">Ordena tus titulares de la
+      A-Z</button></div>
+  <div class="container" id="allContainer">
+    <div class="col-xs-12">
+      <h3>Filtrar tu noticia por fuente</h3>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <select id="feedlabel">
+            <option value="TF2 Blog">TF2 Blog</option>
+            <option value="Product Update">Product Update</option>
+            <option value="PC Gamer">PC Gamer</option>
+            <option value="Eurogamer">Eurogamer</option>
+            <option value="Rock, Paper, Shotgun">Rock, Paper, Shotgun</option>
+          </select>
         </div>
-      <div class="col-xs-12"> 
-        <select id="feedlabel">
-          <option value="TF2 Blog">TF2 Blog</option>
-          <option value ="Product Update">Product Update</option>
-          <option value ="PC Gamer">PC Gamer</option>
-          <option value="Eurogamer">Eurogamer</option>
-          <option value="Rock, Paper, Shotgun">Rock, Paper, Shotgun</option>
-        </select>
       </div>
     </div>
 
-  <div id="root">
-  </div>
+    <div id="containerTwo">
+      
+    </div>
+    <div id="root">
+    </div>
 
 
 
 
 
-<script src="./data/steam/steam.js"></script>
-<script src="data.js"></script>
-<script src="main.js"></script>
-<script>"code.jquery.com/jquery-latest.js"</script>
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+    <script src="./data/steam/steam.js"></script>
+    <script src="data.js"></script>
+    <script src="main.js"></script>
+    <script>"code.jquery.com/jquery-latest.js"</script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"></script>
 
 
 </body>
-</html>
+<footer>
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="steamfooter">
+        <div class="col-xs-12">
+          <!-- este es mi div para logo-->
+          <img src="../src/imagen/footer.png" class="img-responsive rock-paper" alt="rock-paper">
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
 
+</html>
