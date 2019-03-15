@@ -12,9 +12,19 @@ document.getElementById('feedlabel').addEventListener('change', () => {
     container.innerHTML += `<p>
     <a href="${data[i].url}" target="_blank">${result[i].title}</a></p>`
   }
-  let calculo =result.length;
-  let result2 =window.computeStast(calculo);
+ 
 
-  console.log(result2)
-  console.log(calculo)
-});
+ 
+  let calculo = result.length;
+  let result2 = window.computeStast(calculo);
+
+  
+  let calcular = document.getElementById('percentage');
+
+ calcular.innerHTML=` <p> ${result2} % de Titulos por Noticia</p>`
+  });  
+
+//console.log(result2)
+  //console.log(calculo)
+
+//window.onload = showData(data);

@@ -6,6 +6,8 @@ const filterData = (data, condition) => {
   return filterFeedLabel;
 };
 
+//
+//Retorna un porcentaje en un número
 const computeStast = (calculo) => {
   let porcentaje = (calculo*100)/10;
   return porcentaje;

@@ -48,12 +48,12 @@ margin-left: 25%;
     border-bottom-color: rgba(78, 78, 78, 0.863);
     color: rgba(245, 245, 245, 0.897);
 }
-#root a{
+#root ,#percentage{
     color:#e6c8c8;
     }
-#root p{
+/*#root p{
     color:#e6c8c8;
-}
+}*/
 #feedlabel{
     align-content: center;
     margin-left: 30%; 
